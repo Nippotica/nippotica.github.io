@@ -1,0 +1,309 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400;500&family=Source+Code+Pro:ital,wght@0,400;0,600;1,400;1,600&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+@font-face {
+    font-family: ScalaSansSC;
+    src: url(../fonts/ScalaSans-RegularSC.otf);
+}
+
+@font-face {
+    font-family: Scala;
+    src: url(../fonts/Scala.otf);
+}
+
+@font-face {
+    font-family: ScalaSans;
+    src: url(../fonts/ScalaSans-Regular.otf);
+}
+
+body {
+    font-family: Scala, serif;
+    font-size: 14pt;
+    font-weight: 300;
+    line-height: 1.6;
+    padding: 0;
+    margin: 0;
+    background-color: #f6f6f8;
+}
+
+h3 {
+    font-family: Lato, sans-serif;
+    font-size: 16pt;
+    font-weight: 600;
+    margin: 20px 0 8px 0;
+}
+
+h4 {
+    font-family: Lato, sans-serif;
+    font-size: 14pt;
+    font-weight: 600;
+
+    margin-block-start: 0.6em;
+    margin-block-end: 0.3em;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+/* Header & Footer Area */
+
+header {
+    text-align: center;
+    width: 100%;
+
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.05) 0px 8px 32px;
+}
+
+.logo_area {
+    display: inline !important;
+}
+
+.logo {
+    margin: auto;
+    height: 80px;
+}
+
+.logo { padding: 15px !important; }
+
+.no-padding { padding: 0; }
+
+/* Navbar */
+.nav {
+    background-color: #686887; /*#116282;*/
+    border: 0;
+    color: white;
+    font-family: ScalaSansSC, sans-serif;
+    font-size: 15pt;
+    font-weight: 200;
+    line-height: 1.5;
+    overflow: clip;
+    text-align: center;
+    margin-top: -5px;
+}
+
+.nav a {
+  display: inline-block;
+}
+  
+/* Navigation links */
+.nav a, .nav a:visited {
+    /* padding: 12px; */
+    padding: 5px 10px 5px 10px;
+    color: white;
+    text-decoration: none;
+    border: 0;
+}
+
+.nav a:hover {
+    background-color: #f3f3f3;
+    color: #0a7099;
+}
+
+a.active {
+    color: #d2edf8 !important; /* #ffefc3 */
+}
+
+/* paragraph and headlines */ 
+
+p {
+    line-height: 1.6;
+    margin-block-start: 0.6em;
+    margin-block-end: 0.6em;
+}
+
+p.item {
+    margin-top: 0;
+    margin-bottom: 1em;
+}
+
+h1 {
+    text-align: center;
+    font-weight: 400;
+    background-color: #d9ebd3;
+}
+
+/* Links */
+
+a {
+    color: #198ebc;
+    text-decoration: none;
+    border-bottom: 1px dashed #198ebc;
+}
+
+a:visited{
+    color: #198ebc;
+    border-bottom: 1px dashed;
+}
+
+a:hover {
+    background-color: #ebf0f4;
+}
+
+a.active:hover {
+    color: #116282 !important;
+}
+
+.nippokit {
+    font-family: Lato, sans-serif;
+}
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    color: #666;
+    background-color: #f6f6f8;
+    text-align: center;
+    align-content: center;
+    justify-content: center;
+}
+
+.flex > div {
+    min-width: 300px;
+    width: 100%;
+    max-width: 450px;
+    padding: 20px;
+    text-align: left;
+}
+
+.flex > div.single {
+    min-width: 300px;
+    max-width: 900px;
+    padding: 20px;
+    text-align: left;
+}
+
+.centered {
+    text-align: center;
+}
+
+.noBottom {
+    padding-bottom: 0px !important;
+}
+
+.noTop {
+    padding-top: 0px !important;
+}
+
+.noBottomMargin {
+    margin-bottom: 0px !important;
+}
+
+.noTopMargin {
+    margin-top: 0px !important;
+}
+
+
+
+.topImage {
+    margin-top: 20px;
+}
+
+.column-image {
+    min-width: 300px;
+    max-width: 450px;
+}
+
+.column-header-image {
+    margin-top: 11px;
+}
+
+/* etc. */
+
+footer {
+    color: white;
+    text-align: right;
+    font-size: 90%;
+    padding: 6px 24px 6px 12px;
+    margin: 0;
+    background-color: #686887; /* #116282; */
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 10px 20px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
+}
+
+h3.small-title {
+    margin-bottom: 5px;
+    font-weight: 400;
+}
+
+/* bullets */
+
+ul {
+    margin-block-start: .2em;
+}
+
+ul {
+
+}
+
+ul.a {
+    list-style-type: circle;
+}
+
+/* Default Table Style */
+
+table {
+    color: #777;
+    background: white;
+    border: 1px solid #eee;
+    font-family: Lato, sans-serif;
+    font-size: 70%; /* 80%; */
+    font-weight: normal;
+    border-collapse: collapse;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.05) 0px 8px 32px;
+}
+
+table thead th,
+table tfoot th {
+    color: #f2f2f2;
+    background: rgba(0,0,0,.1);
+}
+table caption {
+    padding:.5em;
+}
+table th,
+table td {
+    padding: .5em;
+    /* border: 1px solid #f2f2f2; */
+    border-right: 0px;
+}
+
+table th {
+    background: #f2f2f2;
+}
+
+.map {
+    width: 100%;
+    height: 400px;
+    border: 0px;
+    margin-right: 20px;
+}
+
+/*
+@media (max-width: 450px) {
+    .flex > div.single {
+        padding-top: 0px !important;
+    }
+}
+*/
+
+@media (max-width: 799px) {
+    .flex {
+        flex-direction: column;
+    }
+
+    .flex > div {
+        max-width: 650px;
+        padding-bottom: 0px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
