@@ -133,7 +133,7 @@ a {
     border-bottom: 1px dashed #198ebc;
 }
 
-a:visited{
+a:visited {
     color: #198ebc;
     border-bottom: 1px dashed;
 }
@@ -212,16 +212,6 @@ a.active:hover {
 
 /* etc. */
 
-footer {
-    color: white;
-    text-align: right;
-    font-size: 90%;
-    padding: 6px 24px 6px 12px;
-    margin: 0;
-    background-color: #686887; /* #116282; */
-    box-shadow: rgba(0, 0, 0, 0.15) 0px 10px 20px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
-}
-
 h3.small-title {
     margin-bottom: 5px;
     font-weight: 400;
@@ -271,6 +261,7 @@ table td {
 
 table th {
     background: #f2f2f2;
+    vertical-align: top;
 }
 
 .map {
@@ -287,6 +278,37 @@ table th {
     }
 }
 */
+
+footer {
+    color: white;
+    font-size: 90%;
+    margin: 0;
+    background-color: #686887; /* #116282; */
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 10px 20px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
+}
+
+.footerLeft {
+    float: left;
+    padding: 6px 12px 6px 24px;
+    text-align: left;
+}
+
+.footerRight {
+    padding: 6px 24px 6px 12px;
+    text-align: right;
+}
+
+a.footerText {
+    color: white;
+}
+
+a.footerText:hover {
+    color: #686887;
+}
+
+.footerTextActive {
+    color: #d2edf8;
+}
 
 @media (max-width: 799px) {
     .flex {
