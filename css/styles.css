@@ -102,6 +102,8 @@ header {
 
 a.active {
     color: #d2edf8 !important; /* #ffefc3 */
+    padding-bottom: 1px;
+    border-bottom: 4px solid #9f9fb5 !important;
 }
 
 /* paragraph and headlines */ 
